@@ -1,6 +1,7 @@
 <p align="center">
   <img src="./ll.gif" alt="Lunar Lander" />
 </p>
+
 # DQN LunarLander
 
 This project implements a **Deep Q-Network (DQN)** agent to solve the **LunarLander-v3** environment using PyTorch and Gymnasium. The goal is to control a lunar lander as it navigates through a gravity-influenced environment to safely land between designated flags.
