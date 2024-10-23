@@ -1,5 +1,5 @@
 
-
+![lander](./ll.png)
 # DQN LunarLander
 
 This project implements a **Deep Q-Network (DQN)** agent to solve the **LunarLander-v3** environment using PyTorch and Gymnasium. The goal is to control a lunar lander as it navigates through a gravity-influenced environment to safely land between designated flags.
@@ -53,8 +53,11 @@ The model is trained using:
 
 ## Results
 The training and evaluation process is tracked using episode rewards. Below is a typical result showing the agent's rewards over multiple episodes:
-
-![Reward vs Episode Plot](./reward_vs_episode.png) <!-- Insert actual image if available -->
+During training:
+![Reward vs Episode Plot](./reward_vs_episode.png) 
+<!-- Insert actual image if available -->
+During evaluation:
+![Reward vs Episode Plot](./eval.png) 
 
 During the evaluation phase, the agent selects actions greedily (without exploration) and the cumulative reward is recorded for each episode.
 
