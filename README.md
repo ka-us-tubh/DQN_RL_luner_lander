@@ -53,10 +53,12 @@ The model is trained using:
 
 ## Results
 The training and evaluation process is tracked using episode rewards. Below is a typical result showing the agent's rewards over multiple episodes:
-##During training:
+## During training:
+
 ![Reward vs Episode Plot](./reward_vs_episode.png) 
-<!-- Insert actual image if available -->
-##During evaluation:
+
+## During evaluation:
+
 ![Reward vs Episode Plot](./eval.png) 
 
 During the evaluation phase, the agent selects actions greedily (without exploration) and the cumulative reward is recorded for each episode.
